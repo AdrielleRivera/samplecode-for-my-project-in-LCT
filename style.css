@@ -151,9 +151,9 @@ section{
 .Services .Services-content .card{
 	width: calc(33% - 20px);
 	background:white;
-	text-align: center;
+	text-align:center;
 	border-radius: 6px
-	padding:20px 25px;
+	padding:25px 25px;
 }
 .Services .Services-content .card:hover{
 	background:aqua;
@@ -169,17 +169,19 @@ section{
 	width: 60px;
 }
 .Services .Services-content	 .card i{
-	height:60px
-	width:60px	;
+	font-size: 75px;
+	color:#FF5733;
 }
 .Services .Services-content .text{
 	font-family: 'Poppins',sans-serif;
 	font-size: 25px;
 	font-weight: 600; 
-	margin: 10px 0;
+	margin: 8px 0;
 }
 .Services .Services-content p{
 	font-family:'Poppins',sans-serif;
 	font-size: 18px;
+	text-align: center;
+	padding: 20px 20px
 }
 
