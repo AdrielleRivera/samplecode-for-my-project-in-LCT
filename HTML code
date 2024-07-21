@@ -1,32 +1,89 @@
 <!DOCTYPE html>
-<html lang ="e">
-    <meta charset="utf=8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<head>
-    <title>Adrielle Rivera</title>
-    <link rel="stylesheet" type="text/css" href="style.css"
-</head>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>I am web developer</title>
+			<link rel="stylesheet" type="text/css" href="style.css">
+			<script src="https:kit.fontawesome.com/a076d05399.js"></script>
+	</head>
 <body>
-    <nav class= "navbar"
-        <div class= "width">
-            <div class= "logo"><a href="#">IAM WEB<span>DEV</span></a></dev>
-        <h1>Please hire me!</h1>
-        <p>I am an aspiring web developer</p>
-            </div>
-    </nav>
-    <ul class = "menu">
-        <li>Hire me</li>
-        <li>Hire me</li>
-        <li>Hire me</li>
-        <li>Hire me</li>
-    </ul>
+	<nav class="navbar">
+		<div class="max-width">
+			<div class="logo"><a href="#">IAM WEB<span>DEV</span></a></div>
+				<ul class="menu">
+					<li><a href="#About">About</a></li>
+					<li><a href="#Services">Services</a></li>
+					<li><a href="#Skills">Skills</a></li>
+					<li><a href="#Contact">Contact</a></li>
+				</ul>
+			</div>
+	</nav>
+	
+	<!--Home Section-->
+	<section class="home" id="home">
+		<div class="max-width">
+			<div class="home-content">
+				<div class="text-1">Building You</div>
+				<div class="text-2">Great Websites</div>
+				<div class="text-3">That Sell.</div>
+				<a href="#Contact">Learn More</a>
+			</div>
+		</div>
+	</section>
 
-
-
+	<!--About Section-->
+	<section class="About" id="About">
+		<div class="max-width">
+			<h1 class="title">About</h1>
+				<div class="About-Content">
+					<div class="column left">
+						<img src="images/profile-1.jpeg" alt="Man with tablet">
+							</div>
+								<div class="column right">
+								<h2 class="text">We are ready to serve you</h2>
+								<p>We are happy to inform you that <strong>I AM WEB DEV 2024</strong> are now ready to serve you, from the <b>design layout</b> to deploying your website online. We specialize in <i>creating website</i> that defines your brand and show case your <em>company products</em> and services on the internet.</p><!--<p> is paragraph-->
+					</div>	
+				</div>
+			</div>
+		</section>
+	<!--Services Section-->
+	<section class="Services" id="Services">
+			<div class="max-width">
+				<h2 class="title">Our Services</h2>
+					<div class="Services-content">
+					<div class="card">
+					<div class="box">
+						<i class="fa-solid fa-user"></i>
+							<div class="text">HTML5</div>
+								<p>We also provide Advertising Assistance just in case you need one as well as Web App Design</p>
+					</div>
+				</div>
+			<div class="card">
+					<div class="box">
+						<img src="images/css3-brands.svg">
+						<div class="text">CSS3</div>
+							<p>We also provide Advertising Assistance just in case you need one as well as Web App Design</p>
+					</div>	
+				</div>
+				<div class="card">
+					<div class="box">
+						<img src="images/js-square-brands.svg">
+						<div class="text">JavaScript</div>
+							<p>We also provide Advertising Assistance just in case you need one as well as Web App Design</p>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</section>
+			<section class="Skills" id="Skills">
+				<h3>Skills</h3>
+		<p>Hello welcome to my website! This is my portfolio</p>
+	</section>
+<section class="Contact" id="Contact">
+				<h4>Contact</h4>
+		<p>Hello welcome to my website! This is my portfolio</p>
+	</section>
+<footer><p>These are my social medias</p></footer>
 </body>
-<h2></h2>
-<p></p>
-<footer>
-<p></p>
-</footer>
 </html>
