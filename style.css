@@ -1,40 +1,185 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
- {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-     text-decoration: none;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');/*always check the number for font weight if match dito sa font type*/
+
+* {
+ 	margin: 0; 
+ 	padding: 0; 
+ 	box-sizing: border-box; 
+ 	text-decoration: 
 } 
 .max-width{
-    max-width: 1300px;
-    padding: 0 80px;
-    margin: auto;
+	max-width: 1300px;
+	padding: 0 80px;
+	margin: auto;
 }
+/* Style for Navigation Bar*/
 .navbar{
-    position: relative;
-    width: 100%;
-    padding: 15px 0px;
-    font-family: 'Poppins', sans-serif;
-    background: turquoise;
+	position: relative; 
+	width: 100%;
+	padding: 15px 70px;
+	font-family: 'Poppins', sans-serif;
+	background: turquoise;
 }
 .navbar .max-width{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;	
 }
 .navbar .logo a{
-    color: white;
-    font-size: 50px;
-    font-weight: 600;
+	color: white;
+	font-size: 35px;
+	font-weight: 600;
+}
+.navbar .logo a:hover{
+	color:red;
+}
+.navbar .logo a span{
+	color:white;
+}
+.navbar .logo a span:hover{
+	color:blue;
 }
 .navbar .menu li{
-    list-style: none;
-    display: inline-block; 
+	list-style: none;
+	display: inline-block; 
 }
 .navbar .menu li a{
-    display: block;
-    color: white;
-    font-size: 18px
-    font-weight: 500;
-    margin-left: 25px;
+	display: block;
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	margin-left: 30px;
+	transition: all 0.3s ease;
 }
+.navbar .menu li a:hover{
+	color: blue;
+}
+/* Style for Home Section*/
+.home{
+	display:flex;
+	background: url("images/banner.jpg") repeat center;
+	height: 95vh;
+	color: red;
+	min-height: 500px;
+	background-size: cover; 
+	background-attachment: fixed;
+	font-family: 'Poppins', sans-serif
+}
+.home .max-width{
+	margin: auto 0 auto 30px; 
+}
+.home .home-content .text-1{
+	font-size:25px;
+}
+.home .home-content .text-2{
+	font-size:50px;
+	font-weight: 700;
+	margin: -3px;
+}
+.home .home-content .text-3{
+	font-size:25px;
+}
+.home .home-content a{
+	display:inline-block;
+	background:red;
+	color:white;
+	font-size:20px;
+	padding: 12px 36px;
+	margin-top:30px;
+	border-radius:20px;
+	transition: all 0.3s ease;
+}
+.home .home-content a:hover{
+	color:white;
+	background:turquoise;
+}
+/* Style for About Section*/
+section{
+	padding: 100px 0; 
+}
+.About{
+	font-family:'Poppins', sans-serif;
+}
+.About .title{
+	text-align:center;
+	font-size: 30px;
+	padding-bottom: 50px;
+
+}
+.About .About-Content {
+	display:flex;
+	flex-wrap:wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.About .About-Content .left{
+	width: 45%;
+}
+.About .About-Content .left img{
+	height:300px;
+	width:300px;
+	object-fit: cover;
+	border-radius: 18px;
+}
+.About .About-Content .right{
+	width: 55%;
+}
+.About .About-Content .right .text{
+	margin-bottom: 20px;
+}
+.About .About-Content .right p{
+	font-size:20px;
+	text-align:justify;
+}
+/*Style for Services Section*/
+.Services {
+	color:black;
+	background:tomato;
+}
+.Services .title{
+	font-family:'Poppins',sans-serif;
+	color:white;
+	text-align:center;
+	font-size: 30px;
+	padding-bottom:50px;
+}
+.Services .Services-content{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between; 
+}
+.Services .Services-content .card{
+	width: calc(33% - 20px);
+	background:white;
+	text-align: center;
+	border-radius: 6px
+	padding:20px 25px;
+}
+.Services .Services-content .card:hover{
+	background:aqua;
+}
+.Services .Serices-content .card .box{
+	transition:all 0.3s ease;
+}
+.Services .Services-content .card .box:hover{
+	transform: scale(1.05);
+}
+.Services .Services-content .card img{
+	height: 60px;
+	width: 60px;
+}
+.Services .Services-content	 .card i{
+	height:60px
+	width:60px	;
+}
+.Services .Services-content .text{
+	font-family: 'Poppins',sans-serif;
+	font-size: 25px;
+	font-weight: 600; 
+	margin: 10px 0;
+}
+.Services .Services-content p{
+	font-family:'Poppins',sans-serif;
+	font-size: 18px;
+}
+
