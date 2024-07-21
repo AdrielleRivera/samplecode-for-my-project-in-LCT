@@ -5,9 +5,9 @@
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 				<title>I am web developer</title>
 			<link rel="stylesheet" type="text/css" href="style.css">
-			<script src="https:kit.fontawesome.com/a076d05399.js"></script>
-	</head>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 <body>
+	</head>
 	<nav class="navbar">
 		<div class="max-width">
 			<div class="logo"><a href="#">IAM WEB<span>DEV</span></a></div>
@@ -54,8 +54,7 @@
 					<div class="Services-content">
 					<div class="card">
 					<div class="box">
-						<i class="fa-solid fa-user"></i>
-							<div class="text">HTML5</div>
+						<i class="fa-brands fa-html5"></i>					<div class="text">HTML5</div>
 								<p>We also provide Advertising Assistance just in case you need one as well as Web App Design</p>
 					</div>
 				</div>
