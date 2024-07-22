@@ -76,46 +76,44 @@
 			</div>
 		</div>		
 	</section>
-	<!--Skills Section-->
-			<section class="Skills" id="Skills">
-				<h2 class="title">Skills</h2>
+	<section class="Skills" id="Skills">
+		<h2 class="title">Skills</h2>
 					<div class="max-width">
 						<div class="Skills-Content">
 							<div class ="column left">
-									<div class="text">Our Team Creative Skills & Development Experiences</div>
-								<p>Our team expertise majors in Web Development using HTML, CSS, JavaScript, PHP and MySQL which are the primary languages that power the internet. We will make sure that your website is up to date and user friendly with simple interface easy to navigate.</p>
+								<div class="text">Our Team Creative Skills & Development Experiences</div>
+									<p>Our team expertise majors in Web Development using HTML, CSS, JavaScript, PHP and MySQL which are the primary languages that power the internet. We will make sure that your website is up to date and user friendly with simple interface easy to navigate.</p>
 								<a href="#">read more</a>
 							</div>
 							<div class="column right">
 								<div class="bar">
-								<div>
 									<div class="info">
-										<span>HTML5</span>
-										<span>95%</span>
+											<span>HTML5</span>
+											<span>95%</span>
 									</div>
-								</div><div class="bar">
-								<div>
+								</div>
+								<div class="bar">
 									<div class="info">
-										<span>CSS3</span>
-										<span>95%</span>
+											<span>CSS3</span>
+										<	span>95%</span>
 									</div>
-								</div>	<div class="bar">
-								<div>
-									<div class="info">
-										<span>JavaScript</span>
-										<span>95%</span>
+								</div>	
+									<div class="bar">
+										<div class="info">
+											<span>JavaScript</span>
+											<span>95%</span>
 									</div>
-								</div><div class="bar">
-								<div>
-									<div class="info">
-										<span>PHP</span>
-										<span>95%</span>
+								</div>
+									<div class="bar">
+										<div class="info">
+											<span>PHP</span>
+											<span>95%</span>
 									</div>
-								</div>	<div class="bar">
-								<div>
-									<div class="info">
-										<span>MYSQL</span>
-										<span>95%</span>
+								</div>	
+									<div class="bar">
+										<div class="info">
+											<span>MYSQL</span>
+											<span>95%</span>
 									</div>
 								</div>			
 						</div>
@@ -123,7 +121,7 @@
 	</section>
 <section class="Contact" id="Contact">
 				<h4>Contact</h4>
-		<p>Hello welcome to my website! This is my portfolio</p>
+		<p>Putting up a website is really hard these days. But don't you worry, we got you covered. All we need is some information about your business and we'll get started right away.</p>>
 	</section>
 <footer><p>These are my social medias</p></footer>
 </body>
