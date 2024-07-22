@@ -54,7 +54,8 @@
 					<div class="Services-content">
 					<div class="card">
 					<div class="box">
-						<i class="fa-brands fa-html5"></i>					<div class="text">HTML5</div>
+						<img src="images/html5-brands.svg">					
+						<div class="text">HTML5</div>
 								<p>We also provide Advertising Assistance just in case you need one as well as Web App Design</p>
 					</div>
 				</div>
@@ -75,6 +76,7 @@
 			</div>
 		</div>		
 	</section>
+	<!--Skills Section-->
 			<section class="Skills" id="Skills">
 				<h3>Skills</h3>
 		<p>Hello welcome to my website! This is my portfolio</p>
