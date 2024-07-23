@@ -92,30 +92,35 @@
 											<span>HTML5</span>
 											<span>95%</span>
 									</div>
+									<div class="line css"></div>
 								</div>
 								<div class="bar">
 									<div class="info">
 											<span>CSS3</span>
-										<	span>95%</span>
+										<span>95%</span>
 									</div>
+									<div class="line css"></div>
 								</div>	
 									<div class="bar">
 										<div class="info">
 											<span>JavaScript</span>
 											<span>95%</span>
 									</div>
+									<div class="line css"></div>
 								</div>
 									<div class="bar">
 										<div class="info">
 											<span>PHP</span>
 											<span>95%</span>
 									</div>
+									<div class="line css"></div>
 								</div>	
 									<div class="bar">
 										<div class="info">
 											<span>MYSQL</span>
 											<span>95%</span>
 									</div>
+									<div class="line css"></div>
 								</div>			
 						</div>
 					</div>
