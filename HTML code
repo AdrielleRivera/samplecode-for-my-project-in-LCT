@@ -76,14 +76,15 @@
 			</div>
 		</div>		
 	</section>
+	<!--Skills Section-->
 	<section class="Skills" id="Skills">
 		<h2 class="title">Skills</h2>
 					<div class="max-width">
-						<div class="Skills-Content">
+						<div class="Skills-content">
 							<div class ="column left">
 								<div class="text">Our Team Creative Skills & Development Experiences</div>
 									<p>Our team expertise majors in Web Development using HTML, CSS, JavaScript, PHP and MySQL which are the primary languages that power the internet. We will make sure that your website is up to date and user friendly with simple interface easy to navigate.</p>
-								<a href="#">read more</a>
+								<a href="#">Read More</a>
 							</div>
 							<div class="column right">
 								<div class="bar">
