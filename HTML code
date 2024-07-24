@@ -127,8 +127,10 @@
 	</section>
 	<!--Contact Section-->
 <section class="Contact" id="Contact">
-				<h4>Contact</h4>
-		<p>Putting up a website is really hard these days. But don't you worry, we got you covered. All we need is some information about your business and we'll get started right away.</p>>
+	<div class="max-width">
+		<h4>Contact</h4>
+			<p>Putting up a website is really hard these days. But don't you worry, we got you covered. All we need is some information about your business and we'll get started right away.</p>
+		</div>
 	</section>
 <footer><p>These are my social medias</p></footer>
 </body>
