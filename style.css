@@ -280,3 +280,19 @@ section{
 	align-items: center;
 	justify-content: space-between;
 }
+.Contact .Contact-content .column{
+	width: calc(50% - 30px);
+}
+.Contact .Contact-content .column .text{
+	font-style: 25px;
+	font-weight: 600
+	margin:10px 0;
+}
+.Contact .Contact-content .left p{
+	font-size: 18px;
+	text-align: justify;
+}
+.Contact .Contact-content .left img{
+	height: 20px;
+	width: 20px;
+}
