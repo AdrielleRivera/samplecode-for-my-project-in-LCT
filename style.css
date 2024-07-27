@@ -4,7 +4,7 @@
  	margin: 0; 
  	padding: 0; 
  	box-sizing: border-box; 
- 	text-decoration: 
+ 	text-decoration: none;
 } 
 .max-width{
 	max-width: 1300px;
@@ -220,4 +220,63 @@ section{
 .Skills .Skills-content .left a:hover{
 	color:white;
 	background:turquoise;
+}
+.Skills .Skills-content .right .bar{
+	margin-bottom: 15px;
+}
+.Skills .Skills-content .right .info{
+	display:flex;
+	margin-bottom: 5px;
+	align-items: center;
+	justify-content: space-between;
+}
+.Skills .Skills-content .right span{
+	font-weight:600;
+	font-size: 18px;
+	padding: 5px;
+}
+.Skills .Skills-content .right .line{
+	height: 5px;
+	width: 100%;
+	background:lightgray;
+	position:relative;
+}
+.Skills .Skills-content .right .line::before{
+	content: "";
+	position:absolute;
+	height:100%;
+	left:0;
+	right:0;
+	background: red;
+}
+.Skills-content .right .html::before{
+	width:95%;
+}
+.Skills-content .right .css::before{
+	width:85%;
+}
+.Skills-content .right .js::before{
+	width:82%;
+}
+.Skills-content .right .php::before{
+	width:80%;
+}
+.Skills-content .right .mysql::before{
+	width:80%;
+}
+/* Contact Styling */
+.Contact{
+	font-family:'Poppins', sans-serif;
+}
+.Contact .title{
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 50px;
+
+}
+.Contact .Contact-content{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
 }
