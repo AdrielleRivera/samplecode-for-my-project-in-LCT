@@ -303,9 +303,9 @@ section{
 
 }
 
-.Contact .Contact-content .left img{
-	height: 20px;
-	width: 20px;
+.Contact .Contact-content .left img{ /*ito yung image*/
+	height: 20px;/*pinapalaki ang image*/
+	width: 20px;/*pinapunta sa gitna*/
 }
 .Contact .Contact-content .info .head{
 	color:red;
@@ -314,4 +314,32 @@ section{
 }
 .Contact .Contact-content .info .sub-title{
 	font-weight: 600;
+}
+.Contact .right form .fields{
+	display: flex;
+}
+.Contact .right form .field,
+.Contact .right form .fields,.field{
+	height: 45px;
+	width: 100%;
+	margin-bottom: 10px
+}
+.Contact .right form .textarea{
+	height: 80px;
+	width:100%;
+}
+.Contact .right form .name{
+	margin-right: 10px;
+}
+.Contact .right form .email{
+	margin-left: 10px;
+}
+.Contact .right form .field input,
+.Contact .right form .textarea textarea{
+	height:100%;
+	width: 100%;
+	border: 1px solid:lightgray;
+	border-radius: 6px;
+	outline: none;
+	padding: 0 15px;
 }
