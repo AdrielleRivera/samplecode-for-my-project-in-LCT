@@ -343,3 +343,15 @@ section{
 	outline: none;
 	padding: 0 15px;
 }
+.Contact .right form .field input:focus,
+.Contact .right form .textarea textarea:focus{
+	border-color: red;
+}
+.Contact .right form .textarea textarea{
+	padding-top: 10px;
+	resize: none;
+}
+.Contact .right form .button{
+	height: 50px;
+	width: 150px;
+}
