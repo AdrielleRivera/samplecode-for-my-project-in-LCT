@@ -365,4 +365,10 @@ section{
 	color:white;
 	font-size: 18px;
 	border-radius: 6px;
+	cursor:pointer;
+}
+.Contact .right form .button button:hover{
+	color:white;
+	border: 2px solid white;
+	background:turquoise;
 }
