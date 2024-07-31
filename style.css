@@ -57,7 +57,7 @@
 .home{
 	display:flex;
 	background: url("images/banner.jpg") repeat center;
-	height: 95vh;
+	height: 100vh;
 	color: red;
 	min-height: 500px;
 	background-size: cover; 
@@ -266,6 +266,13 @@ section{
 }
 /* Contact Styling */
 .Contact{
+	display:flex;
+	background: url("images/banner.jpg") repeat center;
+	height: 100vh;
+	color: red;
+	min-height: 500px;
+	background-size: cover; 
+	background-attachment: fixed;
 	font-family:'Poppins', sans-serif;
 }
 .Contact .title{
@@ -378,7 +385,7 @@ footer{
 	background:black;
 	color:white;
 	text-align: center;
-	padding: 10px 25px;
+	padding: 25px 25px;
 }
 footer span{
 	color:red;
