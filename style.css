@@ -372,3 +372,20 @@ section{
 	border: 2px solid white;
 	background:turquoise;
 }
+/* Footer Styling */
+footer{
+	font-family: 'Poppins', sans-serif;
+	background:black;
+	color:white;
+	text-align: center;
+	padding: 10px 25px;
+}
+footer span{
+	color:red;
+}
+footer span a{
+	color:red;
+}
+footer span a:hover{
+	text-decoration: underline;
+}
