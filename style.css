@@ -269,7 +269,6 @@ section{
 	display:flex;
 	background: url("images/banner.jpg") repeat center;
 	height: 100vh;
-	color: red;
 	min-height: 500px;
 	background-size: cover; 
 	background-attachment: fixed;
@@ -386,7 +385,7 @@ footer{
 	color:white;
 	text-align: center;
 	padding: 25px 25px;
-}
+}	
 footer span{
 	color:red;
 }
