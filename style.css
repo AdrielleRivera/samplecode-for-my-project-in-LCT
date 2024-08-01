@@ -60,6 +60,7 @@
 	height: 100vh;
 	color: red;
 	min-height: 500px;
+	max-height: 720px;
 	background-size: cover; 
 	background-attachment: fixed;
 	font-family: 'Poppins', sans-serif
@@ -97,6 +98,13 @@ section{
 	padding: 100px 0; 
 }
 .About{
+	display:flex;
+	background: url("images/banner-5.jpg") repeat center;
+	height: 100vh;
+	min-height: 500px;
+	max-height: 720px;
+	background-size: cover; 
+	background-attachment: scroll;
 	font-family:'Poppins', sans-serif;
 }
 .About .title{
@@ -182,6 +190,13 @@ section{
 }
 /*Style for Skills Section*/
 .Skills{
+	display:flex;
+	background: url("images/banner-3.jpg") repeat center;
+	height: 100vh;
+	min-height: 500px;
+	max-height: 720px;
+	background-size: cover; 
+	background-attachment: fixed;
 	font-family:'Poppins', sans-serif;
 	font-size: 18px;
 }
@@ -230,13 +245,16 @@ section{
 	align-items: center;
 	justify-content: space-between;
 }
+.Skills .Skills-content .right .info:hover{
+	color: red;
+}
 .Skills .Skills-content .right span{
 	font-weight:600;
 	font-size: 18px;
 	padding: 5px;
 }
 .Skills .Skills-content .right .line{
-	height: 5px;
+	height: 10px;
 	width: 100%;
 	background:lightgray;
 	position:relative;
@@ -247,7 +265,7 @@ section{
 	height:100%;
 	left:0;
 	right:0;
-	background: red;
+	background: tomato;
 }
 .Skills-content .right .html::before{
 	width:95%;
@@ -267,11 +285,12 @@ section{
 /* Contact Styling */
 .Contact{
 	display:flex;
-	background: url("images/banner.jpg") repeat center;
+	background: url("images/banner-4.jpg") repeat center;
 	height: 100vh;
 	min-height: 500px;
+	max-height: 720px;
 	background-size: cover; 
-	background-attachment: fixed;
+	background-attachment: scroll;
 	font-family:'Poppins', sans-serif;
 }
 .Contact .title{
