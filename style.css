@@ -19,6 +19,10 @@
 	font-family: 'Poppins', sans-serif;
 	background: turquoise;
 }
+.navbar .sticky{
+	padding: 15px;
+	background:tomato;
+}
 .navbar .max-width{
 	display: flex;
 	align-items: center;
