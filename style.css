@@ -18,6 +18,7 @@
 	padding: 15px 70px;
 	font-family: 'Poppins', sans-serif;
 	background: turquoise;
+	z-index: 1;
 }
 .navbar .sticky{
 	padding: 15px;
