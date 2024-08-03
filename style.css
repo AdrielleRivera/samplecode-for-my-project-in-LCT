@@ -419,3 +419,28 @@ footer span a{
 footer span a:hover{
 	text-decoration: underline;
 }
+/*Responsive Media Query*/
+@media(max-width:1920px){
+	.home .maxwidth{
+		margin-left: 0px;
+	}
+}
+@media (max-width:1104px){
+	.About .About-content .left img{
+		height: 350px;
+		width: 350px;
+	}
+}
+@media (max-width:991px){
+	.max-width{
+		padding:0 50px;
+	}
+}
+@media (max-width: 947px){
+	.home .home-content .text-2{
+		font-size: 35px;
+	}
+	.home .home-content a{
+		font-size: 18px;
+	}
+}
