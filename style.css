@@ -105,9 +105,6 @@ section{
 .About{
 	display:flex;
 	background: url("images/banner-5.jpg") repeat center;
-	height: 100vh;
-	min-height: 500px;
-	max-height: 720px;
 	background-size: cover; 
 	background-attachment: scroll;
 	font-family:'Poppins', sans-serif;
@@ -442,5 +439,21 @@ footer span a:hover{
 	}
 	.home .home-content a{
 		font-size: 18px;
+		padding:10px 30px;
+	}
+	.max-width{
+		max-width: 930px;
+	}
+	.About .About-Content .column{
+		width: 100%;
+	}
+	.About .About-Content .left{
+		display:flex;
+		justify-content: center;
+		margin: 0 auto 60px;
+	}
+	.About .About-Content .right{
+		flex: 100%;
+
 	}
 }
