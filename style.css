@@ -439,6 +439,23 @@ footer span a:hover{
 		display: block;
 		z-index: 999;
 	}
+	.navbar .menu{
+		position:fixed;
+		height:100vh;
+		width:100%;
+		left: 0;
+		top: 0;
+		background: black;
+		text-align:center;
+		padding-top: 80px;
+	}
+	.navbar .menu li{
+		display:block;
+	}
+	.navbar .menu li a{
+		display: inline-block;
+		margin: 20px;
+	}
 	.home .home-content .text-2{
 		font-size: 35px;
 	}
