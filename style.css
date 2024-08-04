@@ -56,7 +56,7 @@
 	transition: all 0.3s ease;
 }
 .navbar .menu li a:hover{
-	color: blue;
+	color: red;
 }
 /* Style for Home Section*/
 .home{
@@ -286,7 +286,7 @@ section{
 	display:flex;
 	background: url("images/banner-4.jpg") repeat center;
 	background-size: cover; 
-	background-attachment: scroll;
+	background-attachment: fixed;
 	font-family:'Poppins', sans-serif;
 }
 .Contact .title{
@@ -332,7 +332,6 @@ section{
 	color:red;
 	font-weight: 600;
 	padding:5px 0;
-	margin-top: 1rem;
 }
 .Contact .Contact-content .info .sub-title{
 	font-weight: 600;
@@ -375,7 +374,7 @@ section{
 }
 .Contact .right form .button{
 	height: 50px;
-	width: 170px;
+	width: 180px;
 }
 .Contact .right form .button button{
 	width: 100%;
@@ -399,7 +398,7 @@ footer{
 	background:black;
 	color:white;
 	text-align: center;
-	padding: 25px 25px;
+	padding: 50px 25px;
 }	
 footer span{
 	color:red;
@@ -415,19 +414,31 @@ footer span a:hover{
 	.home .maxwidth{
 		margin-left: 0px;
 	}
+	.menu-btn{
+		display: none;
+		z-index: 999;
+	}
 }
 @media (max-width:1104px){
 	.About .About-content .left img{
 		height: 350px;
 		width: 350px;
 	}
+	.menu-btn{
+		display: none;
+		z-index: 999;
+	}
 }
 @media (max-width:991px){
 	.max-width{
-		padding:0 50px;
+		padding: 0 50px;
 	}
 }
 @media (max-width: 947px){
+	.menu-btn{
+		display: block;
+		z-index: 999;
+	}
 	.home .home-content .text-2{
 		font-size: 35px;
 	}
