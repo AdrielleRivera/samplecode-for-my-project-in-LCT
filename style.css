@@ -194,9 +194,6 @@ section{
 .Skills{
 	display:flex;
 	background: url("images/banner-3.jpg") repeat center;
-	height: 100vh;
-	min-height: 500px;
-	max-height: 720px;
 	background-size: cover; 
 	background-attachment: fixed;
 	font-family:'Poppins', sans-serif;
@@ -288,9 +285,6 @@ section{
 .Contact{
 	display:flex;
 	background: url("images/banner-4.jpg") repeat center;
-	height: 100vh;
-	min-height: 500px;
-	max-height: 720px;
 	background-size: cover; 
 	background-attachment: scroll;
 	font-family:'Poppins', sans-serif;
@@ -347,7 +341,7 @@ section{
 	display: flex;
 }
 .Contact .right form .field,
-.Contact .right form .fields,.field{
+.Contact .right form .fields .field{
 	height: 45px;
 	width: 100%;
 	margin-bottom: 10px
@@ -456,4 +450,30 @@ footer span a:hover{
 		flex: 100%;
 
 	}
+	.Services .Services-content .card{
+		width: calc(50% - 10px);
+		margin-bottom: 35px;
+	}
+	.Skills .Skills-content .column,
+	.Contact .Contact-content .column{
+		width:100%;
+		margin-bottom: 35px;
+	}
+}
+@media (max-width: 690px){
+	.max-width{
+		padding: 0 23px;
+	}
+	.Services .Services-content .card{
+		width:100%;
+	}
+}
+@media (max-width:500px){
+	.Contact .right .form .fields{
+		flex-direction: column;
+	}
+	.contact .right form .name,
+	.contact .right form .email{
+		margin:0;
+	}	
 }
