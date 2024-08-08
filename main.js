@@ -8,5 +8,5 @@ password = prompt("Please enter your password to view this page!");
 	}
 	else
 		{	
-			window.location = "practice 2.html";
+			window.location = "index.html";
 		}
