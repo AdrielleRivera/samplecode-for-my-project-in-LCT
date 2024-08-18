@@ -7,4 +7,14 @@ $(document).ready(function(){
 			$('.navbar').removeClass("sticky");
 		}
 	});
+
+	$('.navbar .menu li a').click(function(){
+		$('html').css("scrollBehavior", "smooth");
+	});
+
+	$('.menu-btn').click(function(){
+		$('.navbar .menu').toggleClass("active");
+		$('.men-btn img').toggleClass("active");
+	});
+	
 });
