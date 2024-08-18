@@ -160,13 +160,16 @@ section{
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between; 
+	padding:10px 10px;
 }
 .Services .Services-content .card{
 	width: calc(33% - 20px);
 	background:white;
 	text-align:center;
 	border-radius: 6px
-	padding:25px 25px;
+	padding:40px 40px;
+	padding-bottom: 15px;
+	padding-top: 5px;
 }
 .Services .Services-content .card:hover{
 	background:aqua;
@@ -450,6 +453,10 @@ footer span a:hover{
 		opacity:90%;
 		text-align:center;
 		padding-top: 80px;
+		transition: all 0.3s ease;
+	}
+	.navbar .menu.active{
+		left:0;
 	}
 	.navbar .menu li{
 		display:block;
