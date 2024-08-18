@@ -19,7 +19,7 @@
 	background: turquoise;
 	z-index: 1;
 }
-.navbar .sticky{
+.navbar.sticky{
 	padding: 15px;
 	background:tomato;
 }
@@ -56,6 +56,10 @@
 }
 .navbar .menu li a:hover{
 	color: red;
+}
+/* Menu button*/
+.menu-btn{
+	cursor:pointer;
 }
 /* Style for Home Section*/
 .home{
