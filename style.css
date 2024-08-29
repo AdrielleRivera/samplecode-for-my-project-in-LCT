@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');/*always check the number for font weight if match dito sa font type*/
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Teko:wght@300..700&display=swap');
 * {
  	margin: 0; 
  	padding: 0; 
@@ -16,7 +18,7 @@
 	width: 100%;
 	padding: 15px 0px;
 	font-family: 'Poppins', sans-serif;
-	background: turquoise;
+	background: blue;
 	z-index: 1;
 }
 .navbar.sticky{
@@ -34,13 +36,13 @@
 	font-weight: 600;
 }
 .navbar .logo a:hover{
-	color:red;
+	color:#009E60;
 }
 .navbar .logo a span{
 	color:white;
 }
 .navbar .logo a span:hover{
-	color:blue;
+	color:#7CFC00;
 }
 .navbar .menu li{
 	list-style: none;
@@ -55,7 +57,7 @@
 	transition: all 0.3s ease;
 }
 .navbar .menu li a:hover{
-	color: red;
+	color: #7CFC00;
 }
 /* Menu button*/
 .menu-btn{
@@ -64,32 +66,34 @@
 /* Style for Home Section*/
 .home{
 	display:flex;
-	background: url("images/banner.jpg") repeat center;
+	background: url("images/websitebg4.jpg") repeat center;
 	height: 100vh;
-	color: red;
+	color: blue;
 	min-height: 500px;
 	max-height: 720px;
 	background-size: cover; 
 	background-attachment: fixed;
-	font-family: 'Poppins', sans-serif
+	font-family: 'Poppins', sans-serif;
 }
 .home .max-width{
 	margin: auto 0 auto 30px; 
 }
 .home .home-content .text-1{
 	font-size:25px;
+	font-weight: 700;
 }
 .home .home-content .text-2{
 	font-size:50px;
-	font-weight: 700;
+	font-weight: 800;
 	margin: -3px;
 }
 .home .home-content .text-3{
 	font-size:25px;
+	font-weight: 700;
 }
 .home .home-content a{
 	display:inline-block;
-	background:red;
+	background:#097969;
 	color:white;
 	font-size:20px;
 	padding: 12px 36px;
@@ -99,7 +103,7 @@
 }
 .home .home-content a:hover{
 	color:white;
-	background:turquoise;
+	background:#2E8B57;
 }
 /* Style for About Section*/
 section{
@@ -149,7 +153,7 @@ section{
 	background:tomato;
 }
 .Services .title{
-	font-family:'Poppins',sans-serif;
+	font-family:'Teko',sans-serif;
 	color:white;
 	text-align:center;
 	font-size: 30px;
@@ -168,14 +172,16 @@ section{
 	text-align:center;
 	border-radius: 6px
 	padding:40px 40px;
-	padding-bottom: 15px;
+	padding-bottom: 8px;
 	padding-top: 5px;
+	
 }
 .Services .Services-content .card:hover{
-	background:aqua;
+	background:#FFD700;
 }
-.Services .Serices-content .card .box{
+.Services .Services-content .card .box{
 	transition:all 0.3s ease;
+
 }
 .Services .Services-content .card .box:hover{
 	transform: scale(1.05);
@@ -185,7 +191,7 @@ section{
 	width: 60px;
 }
 .Services .Services-content .text{
-	font-family: 'Poppins',sans-serif;
+	font-family: 'Teko',sans-serif;
 	font-size: 25px;
 	font-weight: 600; 
 	margin: 10px 0;
@@ -197,7 +203,7 @@ section{
 /*Style for Skills Section*/
 .Skills{
 	display:flex;
-	background: url("images/banner-3.jpg") repeat center;
+	background: url("images/websitebg12.jpg") repeat center;
 	background-size: cover; 
 	background-attachment: fixed;
 	font-family:'Poppins', sans-serif;
@@ -221,10 +227,14 @@ section{
 	font-size:20px;
 	font-weight: 600;
 	margin-bottom:20px;
+
 }
 .Skills .Skills-content .left p{
 	text-align: justify;
 	font-size: 18px;
+	color:black;
+	font-weight: 800;
+	
 }
 .Skills .Skills-content .left a{
 	display:inline-block;
@@ -237,7 +247,7 @@ section{
 }
 .Skills .Skills-content .left a:hover{
 	color:white;
-	background:turquoise;
+	background:#808000;
 }
 .Skills .Skills-content .right .bar{
 	margin-bottom: 15px;
@@ -247,9 +257,11 @@ section{
 	margin-bottom: 5px;
 	align-items: center;
 	justify-content: space-between;
+	color:white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .Skills .Skills-content .right .info:hover{
-	color: red;
+	color: 	#0BDA51;
 }
 .Skills .Skills-content .right span{
 	font-weight:600;
@@ -394,7 +406,7 @@ section{
 .Contact .right form .button button:hover{
 	color:white;
 	border: 2px solid white;
-	background:turquoise;
+	background:#808000;
 }
 /* Footer Styling */
 footer{
