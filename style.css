@@ -178,7 +178,7 @@ section{
 	
 }
 .Services .Services-content .card:hover{
-	background:#FFD700;
+	background:	#40E0D0;
 }
 .Services .Services-content .card .box{
 	transition:all 0.3s ease;
@@ -204,7 +204,7 @@ section{
 /*Style for Skills Section*/
 .Skills{
 	display:flex;
-	background: url("images/websitebg12.jpg") repeat center;
+	background: url("images/5968949.jpg") repeat center;
 	background-size: cover; 
 	background-attachment: fixed;
 	font-family:'Poppins', sans-serif;
@@ -215,11 +215,13 @@ section{
 	font-size:30px;
 	padding-bottom:50px;
 }
+
 .Skills .Skills-content{
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
+	color: black;
 }
 .Skills .Skills-content .column{
 	width: calc(50% - 30px);
@@ -234,7 +236,7 @@ section{
 	text-align: justify;
 	font-size: 18px;
 	color:black;
-	font-weight: 800;
+	font-weight: 600;
 	
 }
 .Skills .Skills-content .left a{
