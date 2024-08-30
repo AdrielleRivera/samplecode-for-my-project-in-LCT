@@ -66,9 +66,10 @@
 /* Style for Home Section*/
 .home{
 	display:flex;
-	background: url("images/websitebg4.jpg") repeat center;
+	background: url("images/websitebg14.jpg") repeat center;
 	height: 100vh;
-	color: blue;
+	color: #BCB88A;
+	text-shadow: 2px 2px black;
 	min-height: 500px;
 	max-height: 720px;
 	background-size: cover; 
@@ -79,16 +80,16 @@
 	margin: auto 0 auto 30px; 
 }
 .home .home-content .text-1{
-	font-size:25px;
+	font-size:30px;
 	font-weight: 700;
 }
 .home .home-content .text-2{
-	font-size:50px;
-	font-weight: 800;
+	font-size:60px;
+	font-weight: 900;
 	margin: -3px;
 }
 .home .home-content .text-3{
-	font-size:25px;
+	font-size:30px;
 	font-weight: 700;
 }
 .home .home-content a{
