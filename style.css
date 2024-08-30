@@ -23,7 +23,7 @@
 }
 .navbar.sticky{
 	padding: 15px;
-	background:tomato;
+	background:	#009E60;
 }
 .navbar .max-width{
 	display: flex;
@@ -36,7 +36,7 @@
 	font-weight: 600;
 }
 .navbar .logo a:hover{
-	color:#009E60;
+	color:#C9CC3F;
 }
 .navbar .logo a span{
 	color:white;
@@ -66,9 +66,9 @@
 /* Style for Home Section*/
 .home{
 	display:flex;
-	background: url("images/websitebg14.jpg") repeat center;
+	background: url("images/websitebg16.jpg") repeat center;
 	height: 100vh;
-	color: #BCB88A;
+	color: 	#0BDA51;
 	text-shadow: 2px 2px black;
 	min-height: 500px;
 	max-height: 720px;
