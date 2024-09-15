@@ -378,7 +378,7 @@ section{
 .Contact .right form .textarea textarea{
 	height:100%;
 	width: 100%;
-	border: 1px solid:lightgray;
+	border: 1px solid lightgray;
 	border-radius: 6px;
 	outline: none;
 	padding: 0 15px;
